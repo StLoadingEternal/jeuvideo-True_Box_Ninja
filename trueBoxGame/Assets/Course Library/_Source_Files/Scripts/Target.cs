@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Target : MonoBehaviour
 {
@@ -30,8 +31,17 @@ public class Target : MonoBehaviour
         
     //Called when Target is Clicked
     private void OnMouseDown(){
+
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         Instantiate(particle, transform.position, Quaternion.identity);
         Destroy(gameObject);
+
+        if (GameSettings.ShowParticles && particle != null)
+        {
+            Instantiate(particle, transform.position, Quaternion.identity);
+        }
 
         if (isBad) GameManager.instance.UpdateLives(-1);
         else GameManager.instance.UpdateScore(scoreValue);

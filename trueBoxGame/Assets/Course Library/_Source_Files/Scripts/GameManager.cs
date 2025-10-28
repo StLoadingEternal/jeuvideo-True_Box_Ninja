@@ -25,9 +25,28 @@ public class GameManager : MonoBehaviour
 
     public AudioSource gameMusic;
 
+    public PausePanel pausePanel;
+
     // Start is called before the first frame update
     void Start()
     {
+
+        // Initialiser le volume
+        if (gameMusic != null)
+            gameMusic.volume = GameSettings.Volume;
+
+        // Vérifier si on charge une partie sauvegardée
+        var state = SaveSystem.LoadStateFromSave();
+        if (state != null)
+        {
+           
+            score = state.score;
+            nLives = state.lives;
+            
+            spawnRate = 1f / (state.difficulty + 1);
+        }
+     
+
         StartCoroutine(SpawnTargets());
 
         instance = this;
@@ -35,6 +54,8 @@ public class GameManager : MonoBehaviour
         UpdateScore();
         UpdateLives();
         gameOverScreen.SetActive(false);
+
+
     }
 
     public void RestartGame()
@@ -54,7 +75,10 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Time.timeScale = 1f - Time.timeScale;
+            if (Time.timeScale == 1)
+                pausePanel.OpenPanel();
+            else
+                pausePanel.ClosePanel();
         } 
     }
 
