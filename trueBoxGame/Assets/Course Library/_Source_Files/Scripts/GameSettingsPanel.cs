@@ -3,34 +3,39 @@ using UnityEngine.UI;
 
 public class GameSettingsPanel : MonoBehaviour
 {
-    private Slider volumeSlider;
-    private Toggle particlesToggle;
-    private GameObject panelRoot;
+    public Slider volumeSlider;
+    public Toggle particlesToggle;
+   
 
     private void Start()
     {
         // Initialisation
         volumeSlider.value = GameSettings.Volume;
-        particlesToggle.isOn = GameSettings.ShowParticles;
+        particlesToggle.isOn = GameSettings.MuteParticles;
 
-        // Ajout des listeners
-        volumeSlider.onValueChanged.AddListener(UpdateVolume);
-        particlesToggle.onValueChanged.AddListener(UpdateParticles);
+        
     }
 
-    public void UpdateVolume(float value)
+    public void UpdateVolume()
     {
-        GameSettings.Volume = value;
-        AudioListener.volume = value;
+        GameSettings.Volume = volumeSlider.value;
+        
     }
 
-    public void UpdateParticles(bool state)
+    public void UpdateParticles()
     {
-        GameSettings.ShowParticles = state;
+        GameSettings.MuteParticles = particlesToggle.isOn;
+        Debug.Log(GameSettings.MuteParticles);
+    }
+
+    //Changer
+    public void UpdateDifficulty(bool state)
+    {
+        GameSettings.MuteParticles = state;
     }
 
     public void ClosePanel()
     {
-        panelRoot.SetActive(false);
+        gameObject.SetActive(false);
     }
 }

@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638973198769161373
-    m_Hash: 448556842
+      ticks: 638973505200000000
+    m_Hash: 1898059666
   m_LockFileStatus:
     m_FilePath: C:/Users/2301108/Documents/GitHub/jeuvideo-True_Box_Ninja/trueBoxGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638973198769204891
-    m_Hash: 2615505928
+      ticks: 638973505200000000
+    m_Hash: 911853611
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/2301108/Documents/GitHub/jeuvideo-True_Box_Ninja/trueBoxGame/Packages
-m_EditorVersion: 6000.0.57f1 (b7b9860b7bbd)
+m_EditorVersion: 6000.0.49f1 (840e0a9776d9)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.10.0
   testable: 0
@@ -127,10 +127,13 @@ m_ResolvedPackages:
     - 2.9.3
     - 2.10.0
     compatible:
+    - 2.8.1
+    - 2.8.2
+    - 2.9.1
     - 2.9.2
     - 2.9.3
     - 2.10.0
-    recommended: 2.9.3
+    recommended: 2.8.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -158,9 +161,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -174,7 +174,7 @@ m_ResolvedPackages:
     revision: 1704702c409b3f64731bd9a086aff217f6242a58
     path: 
   unityLifecycle:
-    version: 2.9.2
+    version: 2.8.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -204,14 +204,8 @@ m_ResolvedPackages:
   fingerprint: 1e5e48aff19daaf7562fad196714be852e56fff3
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.9.2
+    minimumPackageVersion: 2.8.1
     minimumUnityVersion: 2021.3.0f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
@@ -282,9 +276,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -316,12 +307,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.2
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.inputsystem@1.14.2
   testable: 0
   isDirectDependency: 1
@@ -401,6 +386,8 @@ m_ResolvedPackages:
     - 1.14.2
     - 1.15.0
     compatible:
+    - 1.14.0
+    - 1.14.1
     - 1.14.2
     - 1.15.0
     recommended: 1.14.2
@@ -436,9 +423,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -452,7 +436,7 @@ m_ResolvedPackages:
     revision: 027f642a18cfac51abd465bf1e4b777316db0696
     path: 
   unityLifecycle:
-    version: 1.14.2
+    version: 1.14.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -471,14 +455,8 @@ m_ResolvedPackages:
   fingerprint: be6c4fd0abf5b9b45f956b97294032a67f3c2f4d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.14.2
+    minimumPackageVersion: 1.14.0
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.multiplayer.center@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -500,6 +478,12 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.1
+    - 0.3.0
+    - 0.4.0
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
     - 1.0.0
     compatible:
     - 1.0.0
@@ -532,9 +516,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -566,12 +547,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.nuget.newtonsoft-json@3.2.2
   testable: 0
   isDirectDependency: 1
@@ -633,9 +608,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -668,12 +640,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.2.1
     minimumUnityVersion: 2018.4.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.timeline@1.8.9
   testable: 0
   isDirectDependency: 1
@@ -784,6 +750,8 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     compatible:
+    - 1.8.7
+    - 1.8.8
     - 1.8.9
     recommended: 1.8.9
     deprecated: []
@@ -819,9 +787,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -835,7 +800,7 @@ m_ResolvedPackages:
     revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
     path: 
   unityLifecycle:
-    version: 1.8.9
+    version: 1.8.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -863,20 +828,14 @@ m_ResolvedPackages:
   fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.9
+    minimumPackageVersion: 1.8.7
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\2301108\Documents\GitHub\jeuvideo-True_Box_Ninja\trueBoxGame\Library\PackageCache\com.unity.ugui@58f0e62c6dfa
+  resolvedPath: C:\Users\2301108\Documents\GitHub\jeuvideo-True_Box_Ninja\trueBoxGame\Library\PackageCache\com.unity.ugui@9b7e7eef789d
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -894,10 +853,19 @@ m_ResolvedPackages:
   versions:
     all:
     - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
     recommended: 2.0.0
-    deprecated: []
+    deprecated:
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    - 3.0.0-exp.4
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -926,9 +894,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -955,17 +920,11 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 58f0e62c6dfa1e2d1d7ee686958d477294b09285
+  fingerprint: 9b7e7eef789d33aa6ffece07e152e5d96e115c8f
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.visualscripting@1.9.7
   testable: 0
   isDirectDependency: 1
@@ -1023,6 +982,7 @@ m_ResolvedPackages:
     - 1.9.8
     - 1.9.9
     compatible:
+    - 1.9.6
     - 1.9.7
     - 1.9.8
     - 1.9.9
@@ -1052,9 +1012,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -1068,7 +1025,7 @@ m_ResolvedPackages:
     revision: 8292335505915a41ec7c5cc8e08ac436e24120a9
     path: 
   unityLifecycle:
-    version: 1.9.7
+    version: 1.9.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1092,20 +1049,14 @@ m_ResolvedPackages:
   fingerprint: 6279e2b7c4858e56cca7f367cd38c49ef66778c9
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.7
+    minimumPackageVersion: 1.9.6
     minimumUnityVersion: 2021.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1136,9 +1087,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1170,18 +1118,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1212,9 +1154,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1246,18 +1185,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1287,9 +1220,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1321,18 +1251,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1363,9 +1287,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1397,18 +1318,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1439,9 +1354,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1473,18 +1385,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1515,9 +1421,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1549,18 +1452,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1595,9 +1492,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1629,18 +1523,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1679,9 +1567,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1713,18 +1598,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1755,9 +1634,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1789,18 +1665,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1831,9 +1701,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1865,18 +1732,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1907,9 +1768,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -1941,18 +1799,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1983,9 +1835,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2017,18 +1866,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2059,9 +1902,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2093,18 +1933,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2135,9 +1969,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2169,18 +2000,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2215,9 +2040,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2249,18 +2071,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2291,9 +2107,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2325,18 +2138,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2375,9 +2182,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2409,18 +2213,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2454,9 +2252,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2488,18 +2283,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2530,9 +2319,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2564,18 +2350,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2622,9 +2402,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2656,18 +2433,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2698,9 +2469,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2732,18 +2500,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2781,9 +2543,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2815,18 +2574,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2857,9 +2610,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2891,18 +2641,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2941,9 +2685,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -2975,18 +2716,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3025,9 +2760,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3059,18 +2791,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3109,9 +2835,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3143,18 +2866,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3209,9 +2926,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3243,18 +2957,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3289,9 +2997,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3323,18 +3028,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3377,9 +3076,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3411,18 +3107,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3467,9 +3157,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3501,18 +3188,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3543,9 +3224,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3577,18 +3255,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3631,9 +3303,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3665,18 +3334,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3711,9 +3374,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3745,18 +3405,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.49f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3787,9 +3441,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -3821,12 +3472,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 0
@@ -3900,9 +3545,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -3938,12 +3580,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.23
     minimumUnityVersion: 2019.4.25f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 0
@@ -4035,9 +3671,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -4070,12 +3703,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.36
     minimumUnityVersion: 2019.4.6f1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -4124,9 +3751,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -4158,12 +3782,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2018.1.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.performance.profile-analyzer@1.2.3
   testable: 0
   isDirectDependency: 0
@@ -4219,9 +3837,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -4254,18 +3869,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.2.3
     minimumUnityVersion: 2020.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.test-framework@1.5.1
   testable: 0
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: C:\Users\2301108\Documents\GitHub\jeuvideo-True_Box_Ninja\trueBoxGame\Library\PackageCache\com.unity.test-framework@16d3eb9e8c28
+  resolvedPath: C:\Users\2301108\Documents\GitHub\jeuvideo-True_Box_Ninja\trueBoxGame\Library\PackageCache\com.unity.test-framework@c132dced4a5c
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4279,9 +3888,67 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
+    - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
     - 1.5.1
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.5.1
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     recommended: 1.5.1
     deprecated: []
   dependencies:
@@ -4309,9 +3976,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4338,17 +4002,11 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 16d3eb9e8c282ca13732548b32bbeec6688466b6
+  fingerprint: c132dced4a5c65b92acef64d96761e0b6c1781dc
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.5.1
     minimumUnityVersion: 2022.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.testtools.codecoverage@1.2.6
   testable: 0
   isDirectDependency: 0
@@ -4438,9 +4096,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -4477,12 +4132,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.2.6
     minimumUnityVersion: 2019.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.settings-manager@2.1.0
   testable: 0
   isDirectDependency: 0
@@ -4529,9 +4178,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 1
@@ -4565,12 +4211,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.1.0
     minimumUnityVersion: 2022.3.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
@@ -4591,6 +4231,15 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
+    - 1.0.6
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
     - 2.0.5
     compatible:
     - 2.0.5
@@ -4610,9 +4259,6 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-    compliance:
-      status: 0
-      violations: []
   hideInEditor: 1
   entitlements:
     licensingModel: 0
@@ -4644,10 +4290,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2019.4.0a1
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-m_BuiltInPackagesHash: 65e4b1675e272f7475fadccfb5d5c09c660d95e1
+m_BuiltInPackagesHash: 2e34e3ebcaf2fa12d79d81f8ebc278e6d9e4b58a

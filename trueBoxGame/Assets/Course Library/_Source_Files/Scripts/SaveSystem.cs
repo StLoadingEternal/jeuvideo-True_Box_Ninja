@@ -9,21 +9,15 @@ public class GameState
 {
     public int score;
     public int lives;
-    public int difficulty;
+    public float difficulty;
 }
 
 
-public class SaveSystem : MonoBehaviour
+public class SaveSystem
 {
-    private static string savePath;
+    private static readonly string savePath = Path.Combine(Application.persistentDataPath, "save.json");
 
-    private void Awake()
-    {
-        // Initialiser ici, quand Unity est prêt
-        savePath = Path.Combine(Application.persistentDataPath, "save.json");
-    }
-
-
+   
     public static void SaveGame(GameState state) 
     {
         

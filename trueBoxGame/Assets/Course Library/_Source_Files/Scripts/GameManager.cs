@@ -7,13 +7,16 @@ using UnityEngine.Serialization;
 
 public class GameManager : MonoBehaviour
 {
-    float spawnRate = 1f;
+    
+
+
     public List<GameObject> targets;
 
     public TextMeshProUGUI scoreText;
 
     public int score = 0;
     private int nLives = 3;
+    float spawnRate = 1f;
 
     public static GameManager instance;
 
@@ -25,7 +28,10 @@ public class GameManager : MonoBehaviour
 
     public AudioSource gameMusic;
 
-    private PausePanel pausePanel;
+    public GameObject PanelPause;
+
+    private PausePanel pausePanelScript;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,17 +42,20 @@ public class GameManager : MonoBehaviour
             gameMusic.volume = GameSettings.Volume;
 
         // Vérifier si on charge une partie sauvegardée
-        var state = SaveSystem.LoadStateFromSave();
-        if (state != null)
+
+        //LA même sauvegarde se recharge 
+        if (GameSettings.ChargeSave)
         {
-           
-            score = state.score;
-            nLives = state.lives;
+            GameState gameSave = SaveSystem.LoadStateFromSave();
+            if (gameSave != null)
+            {
+                score = gameSave.score;
+                nLives = gameSave.lives;
+                spawnRate = 1f / (gameSave.difficulty + 1);
+            }
             
-            spawnRate = 1f / (state.difficulty + 1);
         }
      
-
         StartCoroutine(SpawnTargets());
 
         instance = this;
@@ -55,8 +64,8 @@ public class GameManager : MonoBehaviour
         UpdateLives();
         gameOverScreen.SetActive(false);
 
-        pausePanel = GameObject.Find("PanelPause").GetComponent<PausePanel>();
-    }
+        pausePanelScript = PanelPause.GetComponent<PausePanel>();
+    } 
 
     public void RestartGame()
     {
@@ -76,16 +85,12 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (Time.timeScale == 1)
-                pausePanel.OpenPanel();
+                pausePanelScript.OpenPanel();
             else
-                pausePanel.ClosePanel();
+                pausePanelScript.ClosePanel();
         } 
     }
 
-    public void SetPause(bool val = true)
-    {
-        Time.timeScale = val ? 1f : 0f;
-    }
 
     public void UpdateScore(int scoreToAdd = 0)
     {
@@ -117,6 +122,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-   
+    public void saveGame()
+    {
+        var state = new GameState
+        {
+            score = score,
+            lives = nLives,
+            difficulty = GameSettings.Difficulty
+        };
+        SaveSystem.SaveGame(state);
+    }
 }

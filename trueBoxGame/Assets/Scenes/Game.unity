@@ -452,7 +452,6 @@ GameObject:
   - component: {fileID: 467720238}
   - component: {fileID: 467720237}
   - component: {fileID: 467720239}
-  - component: {fileID: 467720240}
   m_Layer: 5
   m_Name: PanelPause
   m_TagString: Untagged
@@ -519,18 +518,6 @@ CanvasRenderer:
   m_GameObject: {fileID: 467720235}
   m_CullTransparentMesh: 1
 --- !u!114 &467720239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 467720235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a1ede798e6cd5f46bcab95270e5e69f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &467720240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -678,7 +665,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 88433b3becd83d34496876b6fd1720c3, type: 3}
   m_Resource: {fileID: 8300000, guid: 88433b3becd83d34496876b6fd1720c3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -778,7 +765,7 @@ GameObject:
   - component: {fileID: 540484579}
   - component: {fileID: 540484578}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RetourjeuBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -847,7 +834,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 540484579}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 467720239}
+        m_TargetAssemblyTypeName: PausePanel, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &540484579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1059,7 +1058,7 @@ GameObject:
   - component: {fileID: 581880508}
   - component: {fileID: 581880507}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SaveBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1128,7 +1127,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 581880508}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 467720239}
+        m_TargetAssemblyTypeName: PausePanel, Assembly-CSharp
+        m_MethodName: SaveGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &581880508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1513,10 +1524,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.55
+  m_fontSize: 22
   m_fontSizeBase: 22
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -1647,7 +1658,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 804398506}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 467720239}
+        m_TargetAssemblyTypeName: PausePanel, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &804398506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1699,7 +1722,7 @@ GameObject:
   - component: {fileID: 918214460}
   - component: {fileID: 918214459}
   m_Layer: 5
-  m_Name: Button
+  m_Name: RetourMenuBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1768,7 +1791,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 918214460}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 467720239}
+        m_TargetAssemblyTypeName: PausePanel, Assembly-CSharp
+        m_MethodName: ReturnToMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &918214460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,6 +1853,7 @@ GameObject:
   - component: {fileID: 918764443}
   - component: {fileID: 918764445}
   - component: {fileID: 918764444}
+  - component: {fileID: 918764446}
   m_Layer: 5
   m_Name: MenuPause
   m_TagString: Untagged
@@ -1884,6 +1920,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918764442}
   m_CullTransparentMesh: 1
+--- !u!114 &918764446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918764442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.8117647, g: 0.8117647, b: 0.8117647, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &983572339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1970,10 +2021,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.2
+  m_fontSize: 22
   m_fontSizeBase: 22
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -2035,7 +2086,7 @@ GameObject:
   - component: {fileID: 1010074701}
   - component: {fileID: 1010074700}
   m_Layer: 5
-  m_Name: Button
+  m_Name: QuitterBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2104,7 +2155,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1010074701}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 467720239}
+        m_TargetAssemblyTypeName: PausePanel, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1010074701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2313,10 +2376,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.2
+  m_fontSize: 22
   m_fontSizeBase: 22
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -2963,6 +3026,7 @@ MonoBehaviour:
   - {fileID: 2793423910144579212, guid: e8691ccd922d5c24187783b6aea1e46c, type: 3}
   scoreText: {fileID: 1386204309}
   score: 0
+  PanelPause: {fileID: 467720235}
   lifeImages:
   - {fileID: 85746448}
   - {fileID: 666643223}
@@ -3263,10 +3327,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.2
-  m_fontSizeBase: 24
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1

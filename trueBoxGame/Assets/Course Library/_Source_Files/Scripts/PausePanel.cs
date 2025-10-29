@@ -1,25 +1,25 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PausePanel : MonoBehaviour
 {
-    private GameObject panel;
+
+    public GameManager gameManagerScript;
 
 
-
-    private void Start()
+    void Start()
     {
-        panel = GetComponent<GameObject>();
+        gameManagerScript = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
-
     public void OpenPanel()
     {
-        panel.SetActive(true);
+        gameObject.SetActive(true);
         Time.timeScale = 0f;
     }
 
     public void ClosePanel()
     {
-        panel.SetActive(false);
+        gameObject.SetActive(false);
         Time.timeScale = 1f;
     }
 
@@ -31,13 +31,7 @@ public class PausePanel : MonoBehaviour
 
     public void SaveGame()
     {
-        var state = new GameState
-        {
-            score = 100, // exemple
-            lives = 3,
-            difficulty = 1
-        };
-        SaveSystem.SaveGame(state);
+        gameManagerScript.saveGame();
     }
 
     public void QuitGame()

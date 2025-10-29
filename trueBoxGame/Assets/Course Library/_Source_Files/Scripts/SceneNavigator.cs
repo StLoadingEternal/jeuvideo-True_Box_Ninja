@@ -10,7 +10,7 @@ public class SceneNavigator : MonoBehaviour
     void Start()
     {
         SceneManager.LoadScene("Menu");
-        //continueButton.interactable = PlayerPrefs.HasKey("SaveExists");
+       
     }
 
     // Update is called once per frame

@@ -10,24 +10,26 @@ public class MenuManager : MonoBehaviour
     {
         
         continueButton.gameObject.SetActive(SaveSystem.CheckHasSave());
+
         // Ferme les paramètres au démarrage
         settingsPanel.SetActive(false);
     }
 
     public void NewGame()
     {
-        //SaveSystem.SaveGame(new GameState());
+        GameSettings.ChargeSave = false;
         SceneNavigator.StartGame();
     }
 
     public void ContinueGame()
     {
+        GameSettings.ChargeSave = true;
         SceneNavigator.StartGame();
     }
 
     public void OpenSettings()
     {
-        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        settingsPanel.SetActive(true);
     }
 
     public void CloseSettings()

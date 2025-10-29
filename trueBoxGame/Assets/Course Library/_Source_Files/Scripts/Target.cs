@@ -35,13 +35,12 @@ public class Target : MonoBehaviour
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 
-        Instantiate(particle, transform.position, Quaternion.identity);
-        Destroy(gameObject);
-
-        if (GameSettings.ShowParticles && particle != null)
+        if (!GameSettings.MuteParticles && particle != null)
         {
             Instantiate(particle, transform.position, Quaternion.identity);
         }
+
+        Destroy(gameObject);
 
         if (isBad) GameManager.instance.UpdateLives(-1);
         else GameManager.instance.UpdateScore(scoreValue);
