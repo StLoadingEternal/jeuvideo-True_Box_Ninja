@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 76
+  controlID: 101
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 576
+    y: 631
     width: 1494
     height: 355
   m_SerializedDataModeController:
@@ -326,7 +326,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Course Library/Textures
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -336,30 +336,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Course Library/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\2301108\Documents\GitHub\jeuvideo-True_Box_Ninja\trueBoxGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 122.39085}
-    m_SelectedIDs: 2e950000
-    m_LastClickedID: 38190
-    m_ExpandedIDs: 000000005e8200006082000062820000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d2820000
+    m_LastClickedID: 33490
+    m_ExpandedIDs: 000000005e820000608200006282000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Textures
+      m_OriginalName: Textures
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 33490
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -453,8 +453,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1496
-    y: 24
+    x: 1495
+    y: 79
     width: 424
     height: 907
   m_SerializedDataModeController:
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 363
     height: 526
   m_SerializedDataModeController:
@@ -522,7 +522,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38c2feff8ec2feffe4c2feff36d1feffc0d1feffcaddfeff5cdefeffa6defefffcdefeff52dffeff9cdffefff2dffeff5ce0feff40e1feff36ecfeff96ecfeff40f2feff62f8feff2efafeff300bffff560cffffce3affff2e3bffff923bffff343fffffd24bffff4251ffffa251ffff1652ffff6652ffff246dffff0a96ffffb497ffff629fffff2aa1ffff6a950000369600007096000080960000889c0000d09c0000f69c0000fc9e0000529f00006e9f0000849f0000a89f0000b89f0000c29f0000d29f00006aa1000072a100008aa10000a0a10000baa10000d6a10000e0a10000f0a1000032a600007aa60000a0a60000b8ab0000f2ab000002ac00000eac00001eac000030b0000038b0000080b0000092b00000a6b00000bcb4000016b500006cb5000088b50000c2b50000d2b50000deb50000eeb50000ecbf0000c2c100008ec20000d8c20000f0ce00001edd000026dd000054dd00006edd000080dd000094dd000012f50000def50000a412010070130100
+      m_ExpandedIDs: 24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -568,8 +568,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 365
-    y: 24
+    x: 364
+    y: 79
     width: 1129
     height: 526
   m_SerializedDataModeController:
