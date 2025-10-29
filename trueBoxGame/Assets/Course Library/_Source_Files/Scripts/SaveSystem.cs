@@ -1,24 +1,35 @@
-
-using Newtonsoft.Json;
 using System.IO;
 using UnityEngine;
+using Newtonsoft.Json;
+using System;
 
-public static class SaveSystem
+
+[System.Serializable]
+public class GameState
 {
-    [System.Serializable]
-    public class GameState
+    public int score;
+    public int lives;
+    public int difficulty;
+}
+
+
+public class SaveSystem : MonoBehaviour
+{
+    private static string savePath;
+
+    private void Awake()
     {
-        public int score;
-        public int lives;
-        public int difficulty;
+        // Initialiser ici, quand Unity est prêt
+        savePath = Path.Combine(Application.persistentDataPath, "save.json");
     }
 
-    private static string savePath = Application.persistentDataPath + "/save.json";
 
     public static void SaveGame(GameState state) 
     {
+        
         string json = JsonConvert.SerializeObject(state, Formatting.Indented);
         File.WriteAllText(savePath, json);
+        Debug.Log($"Jeu sauvegardé dans : {savePath}");
     }
 
     public static bool CheckHasSave()
@@ -35,6 +46,8 @@ public static class SaveSystem
         }
 
         string json = File.ReadAllText(savePath);
-        return JsonConvert.DeserializeObject<GameState>(json);
+        GameState state = JsonConvert.DeserializeObject<GameState>(json);
+        Debug.Log("Sauvegarde chargée !");
+        return state;
     }
 }

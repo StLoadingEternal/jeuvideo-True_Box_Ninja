@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
-     private Button continueButton;
-     private GameObject settingsPanel;
+     public Button continueButton;
+     public GameObject settingsPanel;
 
     private void Start()
     {
@@ -16,7 +16,7 @@ public class MenuManager : MonoBehaviour
 
     public void NewGame()
     {
-        SaveSystem.SaveGame(new SaveSystem.GameState());
+        //SaveSystem.SaveGame(new GameState());
         SceneNavigator.StartGame();
     }
 
@@ -28,6 +28,11 @@ public class MenuManager : MonoBehaviour
     public void OpenSettings()
     {
         settingsPanel.SetActive(!settingsPanel.activeSelf);
+    }
+
+    public void CloseSettings()
+    {
+        settingsPanel.SetActive(false);
     }
 
     public void QuitGame()

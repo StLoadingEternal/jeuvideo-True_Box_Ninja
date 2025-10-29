@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     public AudioSource gameMusic;
 
-    public PausePanel pausePanel;
+    private PausePanel pausePanel;
 
     // Start is called before the first frame update
     void Start()
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         UpdateLives();
         gameOverScreen.SetActive(false);
 
-
+        pausePanel = GameObject.Find("PanelPause").GetComponent<PausePanel>();
     }
 
     public void RestartGame()
@@ -116,4 +116,7 @@ public class GameManager : MonoBehaviour
             Instantiate(targets[index]);
         }
     }
+
+
+   
 }

@@ -4,6 +4,13 @@ public class PausePanel : MonoBehaviour
 {
     private GameObject panel;
 
+
+
+    private void Start()
+    {
+        panel = GetComponent<GameObject>();
+    }
+
     public void OpenPanel()
     {
         panel.SetActive(true);
@@ -24,7 +31,7 @@ public class PausePanel : MonoBehaviour
 
     public void SaveGame()
     {
-        var state = new SaveSystem.GameState
+        var state = new GameState
         {
             score = 100, // exemple
             lives = 3,

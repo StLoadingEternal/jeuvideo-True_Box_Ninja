@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public static class GameSettings
+public class GameSettings : MonoBehaviour
 {
     private const string VOLUME_KEY = "Volume";
     private const string PARTICLES_KEY = "Particles";
 
     public static float Volume
     {
-        get => PlayerPrefs.GetFloat(VOLUME_KEY, 1f);
+        get => PlayerPrefs.GetFloat(VOLUME_KEY, defaultValue: 1f);
         set
         {
             PlayerPrefs.SetFloat(VOLUME_KEY, value);
@@ -17,7 +17,7 @@ public static class GameSettings
 
     public static bool ShowParticles
     {
-        get => PlayerPrefs.GetInt(PARTICLES_KEY, 1) == 1;
+        get => PlayerPrefs.GetInt(PARTICLES_KEY, defaultValue: 1) == 1;
         set
         {
             PlayerPrefs.SetInt(PARTICLES_KEY, value ? 1 : 0);
