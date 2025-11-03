@@ -8,16 +8,19 @@ using UnityEngine.Serialization;
 public class GameManager : MonoBehaviour
 {
     
-
-
     public List<GameObject> targets;
 
     public TextMeshProUGUI scoreText;
 
     public int score = 0;
-    private int nLives = 3;
-    float spawnRate = 1f;
 
+    private int nLives = 3;
+
+    private float spawnRate = 1f;
+
+    private float baseRate = 3f;
+
+    //Référence sur le gameobject
     public static GameManager instance;
 
     public List<GameObject> lifeImages;
@@ -26,8 +29,11 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverScreen;
 
+    //Référence sur la source audio
     public AudioSource gameMusic;
 
+
+    //Références sur le menu pause
     public GameObject PanelPause;
 
     private PausePanel pausePanelScript;
@@ -37,21 +43,23 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 
-        // Initialiser le volume
+        // Initialiser le volume et la difficulté en fonction des paramètres
         if (gameMusic != null)
             gameMusic.volume = GameSettings.Volume;
+        spawnRate = baseRate / (GameSettings.Difficulty + 1);//difficulté 1f: un objet tous les 1.5s; difficulté 0f: un objet tous les 3s
 
-        // Vérifier si on charge une partie sauvegardée
 
-        //LA même sauvegarde se recharge 
+        //Si le joueur continue une partie (charge une sauvegarde)
         if (GameSettings.ChargeSave)
         {
-            GameState gameSave = SaveSystem.LoadStateFromSave();
+            GameState gameSave = SaveSystem.LoadStateFromSave();//On charge la sauvegarde
+
+            //Si la sauvegarde existe on met les données de jeu à jour
             if (gameSave != null)
             {
                 score = gameSave.score;
                 nLives = gameSave.lives;
-                spawnRate = 1f / (gameSave.difficulty + 1);
+                spawnRate = baseRate / (gameSave.difficulty + 1);
             }
             
         }
@@ -60,24 +68,13 @@ public class GameManager : MonoBehaviour
 
         instance = this;
         
+        //Initialiser correctement l'UI
         UpdateScore();
         UpdateLives();
         gameOverScreen.SetActive(false);
 
+        //Réference sur le menu pause
         pausePanelScript = PanelPause.GetComponent<PausePanel>();
-    } 
-
-    public void RestartGame()
-    {
-        SceneManager.LoadScene( SceneManager.GetActiveScene().name );
-
-    }
-
-    public void GameOver()
-    {
-        gameIsActive = false;
-
-        gameOverScreen.SetActive(true);
     }
 
     private void Update()
@@ -88,9 +85,33 @@ public class GameManager : MonoBehaviour
                 pausePanelScript.OpenPanel();
             else
                 pausePanelScript.ClosePanel();
-        } 
+        }
     }
 
+    //sauvegarder le jeu en cours à partir des données de jeu
+    public void saveGame()
+    {
+        var state = new GameState
+        {
+            score = score,
+            lives = nLives,
+            difficulty = GameSettings.Difficulty
+        };
+        SaveSystem.SaveGame(state);
+    }
+
+    //Relancer le jeu en fin de partie
+    public void RestartGame()
+    {
+        SceneManager.LoadScene( SceneManager.GetActiveScene().name );
+    }
+
+    public void GameOver()
+    {
+        gameIsActive = false;
+
+        gameOverScreen.SetActive(true);
+    }
 
     public void UpdateScore(int scoreToAdd = 0)
     {
@@ -115,21 +136,10 @@ public class GameManager : MonoBehaviour
     {
         while (gameIsActive)
         {
-            yield return new WaitForSeconds(1f / spawnRate);
+            yield return new WaitForSeconds(spawnRate);
             var index = Random.Range(0, targets.Count);
 
             Instantiate(targets[index]);
         }
-    }
-
-    public void saveGame()
-    {
-        var state = new GameState
-        {
-            score = score,
-            lives = nLives,
-            difficulty = GameSettings.Difficulty
-        };
-        SaveSystem.SaveGame(state);
     }
 }

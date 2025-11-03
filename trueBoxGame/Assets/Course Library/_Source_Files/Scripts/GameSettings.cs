@@ -7,6 +7,7 @@ public class GameSettings : MonoBehaviour
     private const string DIFFICULTY_KEY = "Difficulte";
     private const string CHARGE_SAVE_KEY = "Continuer";
 
+    //Controle du volume
     public static float Volume
     {
         get => PlayerPrefs.GetFloat(VOLUME_KEY, defaultValue: 1f);
@@ -17,6 +18,7 @@ public class GameSettings : MonoBehaviour
         }
     }
 
+    //Affichage des particules
     public static bool MuteParticles
     {
         get => PlayerPrefs.GetInt(PARTICLES_KEY, defaultValue: 1) == 1;
@@ -27,6 +29,7 @@ public class GameSettings : MonoBehaviour
         }
     }
 
+    //charger une sauvegarde
     public static bool ChargeSave
     {
         get => PlayerPrefs.GetInt(CHARGE_SAVE_KEY, defaultValue: 0) == 1;
@@ -36,6 +39,8 @@ public class GameSettings : MonoBehaviour
             PlayerPrefs.Save();
         }
     }
+
+    //Controle de la difficulté
     public static float Difficulty
     {
         get => PlayerPrefs.GetFloat(DIFFICULTY_KEY, defaultValue: 1f) ;

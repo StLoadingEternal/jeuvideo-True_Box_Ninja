@@ -1,0 +1,26 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameManager">
+			<method name="RestartGame"/>
+		</type>
+		<type fullname="GameSettingsPanel">
+			<method name="UpdateDifficulty"/>
+			<method name="UpdateParticles"/>
+			<method name="UpdateVolume"/>
+		</type>
+		<type fullname="MenuManager">
+			<method name="CloseSettings"/>
+			<method name="ContinueGame"/>
+			<method name="NewGame"/>
+			<method name="OpenSettings"/>
+			<method name="QuitGame"/>
+		</type>
+		<type fullname="PausePanel">
+			<method name="ClosePanel"/>
+			<method name="ClosePanel"/>
+			<method name="QuitGame"/>
+			<method name="ReturnToMenu"/>
+			<method name="SaveGame"/>
+		</type>
+	</assembly>
+</linker>

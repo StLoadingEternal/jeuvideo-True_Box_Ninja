@@ -32,9 +32,11 @@ public class Target : MonoBehaviour
     //Called when Target is Clicked
     private void OnMouseDown(){
 
+        //Impossible de cliquer les objets lors de la pause
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 
+        //Les particules sont activés quand le joueur ne mute pas les particules
         if (!GameSettings.MuteParticles && particle != null)
         {
             Instantiate(particle, transform.position, Quaternion.identity);
