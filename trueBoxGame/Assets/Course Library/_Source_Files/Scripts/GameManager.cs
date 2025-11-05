@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (Time.timeScale == 1)
                 pausePanelScript.OpenPanel();

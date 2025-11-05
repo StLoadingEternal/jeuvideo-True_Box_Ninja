@@ -1,348 +1,534 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1762136779360738, "dur":50, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779360809, "dur":34451, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779395335, "dur":468, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779395828, "dur":2711, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779398539, "dur":444995, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779843535, "dur":357, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779844082, "dur":1204, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1762136779396774, "dur":1820, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762136779398597, "dur":1198, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762136779399795, "dur":529, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762136779400324, "dur":4767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1762136779441171, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1762136779442825, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1762136779442901, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1762136779448356, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.MarshallingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1762136779448443, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.MarshallingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1762136779451601, "dur":8308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":1, "ts":1762136779460020, "dur":6887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/level1" }}
-,{ "pid":12345, "tid":1, "ts":1762136779466968, "dur":376597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762136779396627, "dur":1934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762136779398563, "dur":1552, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762136779400115, "dur":4782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762136779404898, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1762136779438618, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1762136779440588, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762136779443681, "dur":4210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762136779453105, "dur":266, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1762136779447934, "dur":5451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1762136779453434, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":2, "ts":1762136779457300, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1762136779459970, "dur":4596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1762136779464642, "dur":379003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762136779396579, "dur":1968, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762136779400122, "dur":465, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/il2cpp/build/deploy" }}
-,{ "pid":12345, "tid":3, "ts":1762136779400587, "dur":3139, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/il2cpp/libil2cpp" }}
-,{ "pid":12345, "tid":3, "ts":1762136779403772, "dur":708, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
-,{ "pid":12345, "tid":3, "ts":1762136779404480, "dur":50, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
-,{ "pid":12345, "tid":3, "ts":1762136779404530, "dur":97, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/Tools/BuildPipeline" }}
-,{ "pid":12345, "tid":3, "ts":1762136779404627, "dur":74, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
-,{ "pid":12345, "tid":3, "ts":1762136779398550, "dur":6222, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762136779405002, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779405068, "dur":471, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779405619, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779405810, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779405884, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779406144, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779406360, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779406898, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
-,{ "pid":12345, "tid":3, "ts":1762136779404867, "dur":2326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/2301108/Documents/GitHub/jeuvideo-True_Box_Ninja/trueBoxGame/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
-,{ "pid":12345, "tid":3, "ts":1762136779407194, "dur":3177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762136779412831, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779413868, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779414619, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779415339, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779415921, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779416510, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779417345, "dur":608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AMDModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779417984, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779418817, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779420249, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779421307, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779421439, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779423086, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779424768, "dur":12124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779436941, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.InputForUIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779438823, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.InputSystem.ForUI.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779442330, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779442390, "dur":4832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779447247, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779451506, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1762136779447414, "dur":4162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779451577, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779451806, "dur":19102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":3, "ts":1762136779470971, "dur":372667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762136779396826, "dur":1875, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762136779398703, "dur":1372, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762136779400075, "dur":4702, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762136779404780, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1762136779436130, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1762136779437526, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762136779440331, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762136779440407, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762136779443947, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762136779444013, "dur":5100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762136779449167, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762136779449237, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1762136779453052, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1762136779453121, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1762136779456014, "dur":5674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1762136779461832, "dur":9515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1762136779471399, "dur":372251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762136779397091, "dur":1824, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762136779398915, "dur":769, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762136779399684, "dur":545, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762136779400230, "dur":4665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1762136779404896, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1762136779436890, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1762136779438194, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1762136779440858, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1762136779440920, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1762136779445225, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1762136779445344, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1762136779450733, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1762136779455527, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1762136779457638, "dur":7163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1762136779464831, "dur":378740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762136779397070, "dur":1834, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762136779398907, "dur":905, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762136779399813, "dur":768, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762136779400581, "dur":4538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1762136779405119, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1762136779476204, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1762136779477710, "dur":365835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762136779396607, "dur":1946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762136779398557, "dur":1443, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762136779400000, "dur":716, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762136779400716, "dur":4063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1762136779404782, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1762136779407338, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1762136779408537, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1762136779409144, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1762136779409251, "dur":576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1762136779410340, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1762136779412447, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779412538, "dur":9317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779421927, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779423814, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779425066, "dur":10411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779435520, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779437254, "dur":3871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779441129, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779441192, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779446463, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779446551, "dur":3284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779449840, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779449904, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1762136779453650, "dur":9529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1762136779463264, "dur":380268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762136779396976, "dur":1865, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762136779398843, "dur":1086, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762136779399930, "dur":677, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762136779400607, "dur":4292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1762136779404900, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1762136779437603, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1762136779439106, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1762136779442364, "dur":7143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1762136779449546, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1762136779453401, "dur":14446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1762136779467935, "dur":375716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762136779396661, "dur":1906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762136779398570, "dur":1047, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762136779399618, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762136779400176, "dur":4599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1762136779404780, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1762136779407224, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1762136779408760, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779409621, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame.exe" }}
-,{ "pid":12345, "tid":9, "ts":1762136779410909, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/D3D12/D3D12Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779413696, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779414471, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779415100, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779415715, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779416414, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779417140, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779417734, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779418637, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779419843, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779420610, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779422107, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779424154, "dur":2986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779427143, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779427228, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779428905, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779429004, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779430966, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779431088, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779432950, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779433015, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779435543, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779435605, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779437497, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779437563, "dur":3210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779440818, "dur":4057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779444959, "dur":5218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779450236, "dur":5760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1762136779456021, "dur":7532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1762136779463590, "dur":379940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762136779396697, "dur":1877, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762136779398577, "dur":979, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762136779399557, "dur":683, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762136779400240, "dur":4864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1762136779405107, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1762136779475626, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1762136779478095, "dur":365508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762136779396717, "dur":1864, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762136779398584, "dur":917, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762136779399501, "dur":794, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762136779400295, "dur":4582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1762136779404877, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1762136779439101, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1762136779440997, "dur":8638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762136779449638, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762136779449926, "dur":7060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1762136779456999, "dur":7884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1762136779465002, "dur":378581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762136779396760, "dur":1828, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762136779398590, "dur":1066, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762136779399656, "dur":881, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762136779400537, "dur":4534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1762136779405076, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1762136779492787, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1762136779495320, "dur":348219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762136779396800, "dur":1892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762136779398697, "dur":857, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762136779399555, "dur":553, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762136779400109, "dur":4667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762136779404779, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":13, "ts":1762136779418113, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":13, "ts":1762136779419204, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779420456, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779422801, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779422872, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779424537, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779425894, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779425972, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779427467, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779427547, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779429457, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779429522, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779432075, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779432139, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779433800, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779433883, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779436517, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779436584, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779438279, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779438359, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779441033, "dur":5661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779446697, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779451158, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1762136779446935, "dur":4353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779451345, "dur":12952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1762136779464299, "dur":379296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762136779397084, "dur":1827, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762136779398917, "dur":707, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762136779399624, "dur":864, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762136779400488, "dur":4609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1762136779405100, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1762136779493634, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":14, "ts":1762136779494978, "dur":348611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762136779396851, "dur":1856, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762136779398710, "dur":1143, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762136779399854, "dur":641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762136779400495, "dur":4398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1762136779404895, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1762136779437480, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1762136779438730, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1762136779438811, "dur":8067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1762136779446918, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":15, "ts":1762136779451075, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1762136779451250, "dur":10395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1762136779461688, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/level0" }}
-,{ "pid":12345, "tid":15, "ts":1762136779465579, "dur":377998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762136779396885, "dur":1867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762136779398756, "dur":1464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762136779400220, "dur":4731, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1762136779404952, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":16, "ts":1762136779439476, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":16, "ts":1762136779442028, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762136779445412, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762136779445482, "dur":5608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762136779451093, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762136779451173, "dur":10653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":16, "ts":1762136779461846, "dur":5989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":16, "ts":1762136779467877, "dur":375675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1762136779396920, "dur":1876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1762136779398800, "dur":850, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1762136779399651, "dur":579, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1762136779400230, "dur":4544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1762136779404785, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1762136779418415, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/app.info" }}
-,{ "pid":12345, "tid":17, "ts":1762136779419302, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779420597, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779422119, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779424261, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779426105, "dur":7227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779433336, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779433422, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779436414, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779439743, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779439867, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779443037, "dur":8690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":17, "ts":1762136779451736, "dur":26481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":17, "ts":1762136779478238, "dur":365297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779396961, "dur":1864, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779398837, "dur":1215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779400053, "dur":857, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779400911, "dur":4051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779404964, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":18, "ts":1762136779419069, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":18, "ts":1762136779420244, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779421737, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779423261, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779424766, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779426099, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779426190, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779427710, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779427797, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779429241, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779429307, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779431228, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779431303, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779434222, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779436938, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779442751, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779442977, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779449189, "dur":175, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779463145, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1762136779449367, "dur":13892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":18, "ts":1762136779463261, "dur":380383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1762136779396993, "dur":1898, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1762136779398895, "dur":699, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1762136779399595, "dur":611, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1762136779400206, "dur":4567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1762136779419310, "dur":739, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":19, "ts":1762136779420055, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1762136779420660, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player153f44fb-inputdata.json" }}
-,{ "pid":12345, "tid":19, "ts":1762136779420052, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1762136779421299, "dur":112, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1762136779421791, "dur":415445, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1762136779842750, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1762136779842736, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/boot.config" }}
-,{ "pid":12345, "tid":19, "ts":1762136779842823, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/boot.config" }}
-,{ "pid":12345, "tid":20, "ts":1762136779397018, "dur":1882, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1762136779398903, "dur":999, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1762136779399902, "dur":691, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1762136779400593, "dur":4360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1762136779404958, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":20, "ts":1762136779438268, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":20, "ts":1762136779440883, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1762136779440991, "dur":10189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1762136779451182, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1762136779451252, "dur":11355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1762136779462628, "dur":4204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE BOX GAME/trueBoxGame_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":20, "ts":1762136779466894, "dur":376664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1762136779847492, "dur":511, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1762360183034097, "dur":31457, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183065633, "dur":545, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183066618, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"UnityLinker C:/Users/2301108/Documents/GitHub/jeuvideo-True_Box_Ninja/trueBoxGame/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":0, "ts":1762360183066198, "dur":2885, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183069084, "dur":662173, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183731258, "dur":105, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183731395, "dur":177, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183731740, "dur":1370, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1762360183068982, "dur":111, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762360183069097, "dur":1767, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762360183070865, "dur":4653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762360183156901, "dur":601, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1762360183157509, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762360183157596, "dur":11786, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1762360183169385, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1762360183169831, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playercb75f83b-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1762360183157506, "dur":12439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762360183170302, "dur":107, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1762360183170731, "dur":554208, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762360183730420, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762360183730403, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1762360183730523, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1762360183068986, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762360183069114, "dur":2006, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762360183071120, "dur":4464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1762360183075585, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1762360183127763, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1762360183129809, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183129774, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183129990, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183130820, "dur":181536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183130753, "dur":181604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183312373, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183313245, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183313219, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183313461, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183314063, "dur":40493, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183314041, "dur":40517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183354593, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":2, "ts":1762360183355396, "dur":375896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762360183068991, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762360183069130, "dur":1849, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762360183070980, "dur":4639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1762360183075619, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1762360183156081, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1762360183157620, "dur":266018, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762360183157543, "dur":266096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762360183423658, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1762360183424326, "dur":306953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762360183068997, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762360183069147, "dur":2235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762360183071382, "dur":4204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762360183075587, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1762360183141317, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1762360183141752, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1762360183142921, "dur":658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762360183142880, "dur":700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762360183143599, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762360183144577, "dur":366962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762360183144523, "dur":367017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762360183511561, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1762360183512318, "dur":218972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762360183069002, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762360183069151, "dur":2021, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762360183071172, "dur":4417, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1762360183075589, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1762360183157653, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1762360183158687, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762360183158651, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762360183158926, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762360183159924, "dur":404726, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762360183159897, "dur":404755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762360183564672, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1762360183566315, "dur":164950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762360183069052, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762360183069243, "dur":1217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762360183070460, "dur":828, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762360183071288, "dur":4276, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1762360183075566, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1762360183087617, "dur":5538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1762360183093235, "dur":18227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1762360183111525, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762360183111491, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762360183115555, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762360183118309, "dur":374136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762360183118268, "dur":374179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762360183492469, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1762360183493953, "dur":237335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762360183069077, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762360183069273, "dur":1137, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762360183070411, "dur":892, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762360183071304, "dur":4223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1762360183075533, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1762360183109616, "dur":2884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1762360183112555, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183112523, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183115569, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183118994, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183118937, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183119162, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183120243, "dur":205852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183120217, "dur":205880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183326108, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1762360183326811, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1762360183328127, "dur":403136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762360183069054, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762360183069274, "dur":1017, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762360183070291, "dur":583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762360183070874, "dur":4645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762360183075530, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1762360183110577, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1762360183111999, "dur":344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183111952, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183115581, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183119083, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183119048, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183119275, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183120429, "dur":103674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183120404, "dur":103700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183224118, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183225033, "dur":257905, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183225004, "dur":257936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183482961, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1762360183483919, "dur":247377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762360183069141, "dur":2173, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762360183071314, "dur":4215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1762360183075530, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1762360183096817, "dur":15478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1762360183112358, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762360183112321, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762360183115559, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762360183118592, "dur":243032, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762360183118521, "dur":243106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762360183361658, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1762360183363509, "dur":367762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762360183069066, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762360183069282, "dur":787, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762360183070070, "dur":557, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762360183070627, "dur":354, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762360183070981, "dur":4601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1762360183075610, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762360183217459, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1762360183218834, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183218809, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183219099, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183219673, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183219650, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183219907, "dur":560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183220490, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183220468, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183220653, "dur":451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183221128, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183221105, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183221231, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183221688, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183221666, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183221789, "dur":409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183222219, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183222199, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183222381, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183222905, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183222881, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183223048, "dur":510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183223581, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183223559, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183223725, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183224307, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183224282, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183224519, "dur":654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183225196, "dur":89328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183225174, "dur":89351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183314538, "dur":588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183315154, "dur":205, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183315128, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183315375, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183316106, "dur":983, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183316083, "dur":1006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183317104, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183318226, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183318203, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183318348, "dur":544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1762360183318900, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762360183319464, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1762360183320795, "dur":460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762360183321276, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1762360183321868, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762360183322318, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1762360183322835, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1762360183323336, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1762360183324047, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1762360183324916, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762360183325543, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1762360183326014, "dur":471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1762360183326520, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1762360183327145, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1762360183327734, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1762360183328377, "dur":402882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762360183069151, "dur":2153, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762360183071304, "dur":4234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1762360183075540, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1762360183088040, "dur":5118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1762360183093245, "dur":24129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1762360183117460, "dur":229211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762360183117416, "dur":229256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762360183346690, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1762360183347765, "dur":383493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762360183070263, "dur":1040, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":12, "ts":1762360183071303, "dur":3147, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":12, "ts":1762360183074451, "dur":65, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":12, "ts":1762360183074516, "dur":705, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":12, "ts":1762360183075256, "dur":123, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.49f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":12, "ts":1762360183075379, "dur":76, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":12, "ts":1762360183069087, "dur":6428, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762360183075568, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762360183075811, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183075893, "dur":598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183076495, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183076563, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183076615, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183076859, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183076955, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183077260, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183077500, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183077573, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183077755, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\PackageCache\\com.unity.visualscripting@6279e2b7c485\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183077840, "dur":332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@4dfd81071c64\\Runtime\\AOT\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183078671, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\2301108\\Documents\\GitHub\\jeuvideo-True_Box_Ninja\\trueBoxGame\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":12, "ts":1762360183078983, "dur":10631, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\rsp\\18178795856780513835.rsp" }}
+,{ "pid":12345, "tid":12, "ts":1762360183075634, "dur":13982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/2301108/Documents/GitHub/jeuvideo-True_Box_Ninja/trueBoxGame/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":12, "ts":1762360183089617, "dur":3420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1762360183097048, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183097011, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183110065, "dur":5973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183116085, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183116042, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183116250, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183119531, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183119505, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183119672, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183120863, "dur":352364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183120839, "dur":352389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183473257, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1762360183474036, "dur":257261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762360183069142, "dur":2033, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762360183071176, "dur":4393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1762360183075573, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1762360183076855, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1762360183078813, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183079380, "dur":19855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183099286, "dur":197, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183099257, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183110049, "dur":5642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183115783, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183115699, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183116011, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183119440, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183119366, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183119622, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183120759, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183120729, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183120970, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183121624, "dur":329710, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183121600, "dur":329736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183451358, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1762360183452389, "dur":278896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762360183069043, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762360183069229, "dur":890, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762360183070120, "dur":830, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762360183070951, "dur":4647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1762360183075599, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1762360183157119, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1762360183158559, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762360183158503, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762360183158765, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762360183159647, "dur":258967, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762360183159600, "dur":259016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762360183418639, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1762360183419665, "dur":311609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762360183069025, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762360183069160, "dur":842, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762360183070003, "dur":565, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762360183070568, "dur":600, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762360183071168, "dur":4443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1762360183075612, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183127297, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183129298, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183129220, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183129569, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183130665, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183130605, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183130976, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183131958, "dur":1510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183131911, "dur":1559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183133493, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183134863, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183134833, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183135052, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183135793, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183135770, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183136026, "dur":671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183136730, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183136699, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183136914, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183137631, "dur":40425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183137600, "dur":40458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183178076, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183179306, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183179281, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183179576, "dur":634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183180234, "dur":128899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183180212, "dur":128922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183309152, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183309934, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183309908, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183310147, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183310813, "dur":34246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183310789, "dur":34273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183345089, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1762360183346023, "dur":385247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762360183069023, "dur":131, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762360183069157, "dur":1034, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762360183070192, "dur":618, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762360183070810, "dur":4710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1762360183075524, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1762360183076194, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1762360183079513, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183079598, "dur":39298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183118970, "dur":49590, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183118926, "dur":49636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183168591, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183169580, "dur":275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183169552, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183169871, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183170609, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183170585, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183170739, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183171560, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183171522, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183171751, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183172605, "dur":134841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183172579, "dur":134869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183307477, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183308537, "dur":147278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183308503, "dur":147315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183455851, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1762360183457338, "dur":273948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1762360183069004, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1762360183069149, "dur":1702, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1762360183070852, "dur":4671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1762360183075524, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":17, "ts":1762360183097188, "dur":5051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":17, "ts":1762360183102293, "dur":67307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183102263, "dur":67338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183169612, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183170488, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183170460, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183170717, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183171583, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183171543, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183171766, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183172782, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183172749, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183172942, "dur":655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183173630, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183173598, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183173878, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183174688, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183174664, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183174871, "dur":723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183175636, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183175596, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183175813, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183176522, "dur":344040, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183176492, "dur":344072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183520588, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":17, "ts":1762360183522208, "dur":209097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1762360183069042, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1762360183069204, "dur":845, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1762360183070049, "dur":629, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1762360183070679, "dur":4842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1762360183075524, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":18, "ts":1762360183111716, "dur":2542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":18, "ts":1762360183114321, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1762360183114285, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1762360183115582, "dur":3099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1762360183118713, "dur":258646, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":18, "ts":1762360183118683, "dur":258681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":18, "ts":1762360183377455, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":18, "ts":1762360183381388, "dur":349866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1762360183069059, "dur":197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1762360183069257, "dur":815, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1762360183070073, "dur":593, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1762360183070666, "dur":4858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1762360183075526, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":19, "ts":1762360183076342, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":19, "ts":1762360183078295, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":19, "ts":1762360183079409, "dur":19882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":19, "ts":1762360183099337, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183099311, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183110138, "dur":5806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183115997, "dur":217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183115948, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183116230, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183119422, "dur":300917, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183119377, "dur":300964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183420354, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":19, "ts":1762360183420997, "dur":310284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1762360183069090, "dur":1822, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1762360183070912, "dur":4711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1762360183088427, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame.exe" }}
+,{ "pid":12345, "tid":20, "ts":1762360183089254, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183089436, "dur":18992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183108482, "dur":69413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183108452, "dur":69445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183177914, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183179101, "dur":254521, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183179071, "dur":254553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183433656, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":20, "ts":1762360183435729, "dur":295555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1762360183069098, "dur":2055, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1762360183071153, "dur":4425, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1762360183075579, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1762360183141726, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1762360183143200, "dur":323153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":21, "ts":1762360183143124, "dur":323232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":21, "ts":1762360183466425, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":21, "ts":1762360183467520, "dur":263782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1762360183069100, "dur":2074, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1762360183071174, "dur":4406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1762360183075582, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":22, "ts":1762360183112050, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":22, "ts":1762360183114358, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183114324, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183115631, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183118566, "dur":224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183118507, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183118818, "dur":1274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183120119, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183120093, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183120268, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183121106, "dur":137877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183121081, "dur":137904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183259005, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183259849, "dur":328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183259822, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183260192, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183260833, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183260810, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183261086, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183261671, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183261649, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183261953, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183262693, "dur":249, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183262671, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183262955, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183263462, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183263440, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183263583, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183264091, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183264069, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183264296, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183264876, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183264853, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183264997, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183265500, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183265477, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183265621, "dur":461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183266107, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183266084, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183266216, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183266702, "dur":432007, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183266676, "dur":432034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183698728, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":22, "ts":1762360183700458, "dur":30803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1762360183069090, "dur":2035, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1762360183071125, "dur":4479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1762360183075604, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":23, "ts":1762360183111323, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":23, "ts":1762360183113489, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183113458, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183115570, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183118745, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183118696, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183118903, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183119656, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183119632, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183119772, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183120878, "dur":280974, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183120851, "dur":281003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183401886, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":23, "ts":1762360183403513, "dur":327760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1762360183069071, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1762360183069287, "dur":856, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1762360183070143, "dur":583, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1762360183070727, "dur":4882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1762360183075610, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":24, "ts":1762360183156660, "dur":912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":24, "ts":1762360183157641, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183157602, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183157938, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183158755, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183158723, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183158918, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183159834, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183159800, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183160009, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183160798, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183160765, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183160979, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183161723, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183161687, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183161899, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183162596, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183162570, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183162754, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183163322, "dur":104339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183163291, "dur":104372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183267676, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183268283, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183268259, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183268433, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183268986, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183268962, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183269099, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183269561, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183269538, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183269660, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183270111, "dur":182180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183270089, "dur":182207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183452314, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/2301108/Documents/TRUE_BOX_GAME/trueBoxGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":24, "ts":1762360183453202, "dur":278091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1762360183735293, "dur":747, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
